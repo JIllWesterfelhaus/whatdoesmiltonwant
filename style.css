@@ -11,6 +11,11 @@ h1 {
 }
 
 #miltonStapler {
-margin: 20px;
-
+justify-content: center;
 }
+
+#stapler {
+    width: 300px;
+}
+
+
