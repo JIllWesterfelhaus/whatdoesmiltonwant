@@ -11,21 +11,23 @@
 <body>
 
     <h1>What Does Milton Want?</h1>
-    <img src="http://techfunda.com/HTPictures/Generics/5-635898849972807270.JPG" id="myImage" width="100" height="150">
-    <input type="button" onclick="changeImage()" value="Change" />
+
+    <h2>Milton wants his stapler.</h2>
+    <img src="https://am22.mediaite.com/tms/cnt/uploads/2019/04/Office-Space-Milton-1200x699.jpg" id="Milton"
+        width="400">
+    <input type="button" onclick="changeImage()" value="With Stapler" />
     <script>
         function changeImage() {
-            var image = document.getElementById('myImage');
-            if (image.src.match("635898850094838508.JPG")) {
-                image.src = "/HTPictures/Generics/5-635898849972807270.JPG";
+            var image = document.getElementById('Milton');
+            if (image.src.match("https://ewedit.files.wordpress.com/2015/01/office-space_320.jpg?w=320")) {
+                image.src = "https://am22.mediaite.com/tms/cnt/uploads/2019/04/Office-Space-Milton-1200x699.jpg";
             }
             else {
-                image.src = "/HTPictures/Generics/5-635898850094838508.JPG";
+                image.src = "https://ewedit.files.wordpress.com/2015/01/office-space_320.jpg?w=320";
             }
         }
     </script>
-<p><strong>Note:</strong> Click on the "Change" button to Change the water bottle in to the soft drink bottle</p>
-    
+    <p><strong>Note:</strong> Click on the "With Stapler" button to see Milton with his stapler.</p>
 
 
 </body>
